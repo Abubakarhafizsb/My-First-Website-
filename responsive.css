@@ -1,0 +1,363 @@
+@media screen and (min-width:1451px){
+    .all-conainer{
+        overflow:hidden ;
+    }
+}
+@media screen and (max-width:1450px){
+    .header{
+        margin-left:400px ;
+    }
+    .nav_socail{
+        margin-left: 400px;
+    }
+}
+@media screen and (max-width:1300px){
+    .pictures1 img{
+        width:45% ;
+        height:270px ;
+    }
+    .header{
+        display: none;
+    }
+    .nav_socail{
+        display: none;
+    }
+    .container-three{
+        background-image: none;
+    }
+    .container-1{
+        display: flex;
+        flex-direction: column;
+    }
+    .container-2{
+        display: flex;
+        flex-direction: column;
+    }
+    .document{
+        flex-direction: column;
+    }
+    .doc-2{
+        margin-top:50px ;
+        text-align: center;
+        justify-content: center;
+    }
+    .all-doctors{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .all-doctors-1{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .all-doctors-2{
+        display: flex;
+        flex-direction:row;
+    }
+    .all-details{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .all-details-1{
+        display: flex;
+        flex-direction:row;
+    }
+    .all-details-2{
+        display: flex;
+        flex-direction: row;
+        margin-top:80px ;
+    }
+    .box2{
+        display: flex;
+        flex-direction: column;
+    }
+    .box2-1{
+        display: flex;
+        flex-direction: row;
+    }
+    .box2-2{
+        display: flex;
+        flex-direction: row;
+    }
+    .sec-1{
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+    .sec-2{
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+    .sec-3{
+        margin-right: 30px;
+        margin-left: 30px;
+        margin-top: 30px;
+        margin-bottom:50px ;
+    }
+    .sec-4{
+        margin-right: 30px;
+        margin-left: 30px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .wrapper button{
+        margin-left:20px ;
+    }
+}
+@media screen and (max-width:900px){
+    .box1{
+        width:400px ;
+        height:400px ;
+        top: 310px;
+        left:120px ;
+    }
+    
+    .box1 h1{
+        font-size: 35px;
+
+    }
+    .box1 p{
+        font-weight:500 ;
+    }
+    .pictures1 img{
+        height:220px ;
+    }
+}
+@media screen and (max-width:768px){
+    .box1{
+        width:350px ;
+        height:350px ;
+        top: 310px;
+        left:120px ;
+    }
+    
+    .box1 h1{
+        font-size: 30px;
+
+    }
+    .fist{
+        display: flex;
+        flex-direction: column;
+    }
+    .secind{
+        display: flex;
+        flex-direction: column;
+    }
+    .sec-1{
+        margin-top:20px ;
+    }
+    .sec-2{
+        margin-top:20px ;
+    }
+    .sec-3{
+        margin-top:20px ;
+    }
+    .sec-4{
+        margin-top:20px ;
+    }
+    .parah p{
+        text-align: center;
+        margin:10px 100px ;
+        color: #6a6a6a;
+    }
+    .document2{
+        display: flex;
+        flex-direction:column ;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .doc-1 button{
+        margin-left:150px ;
+    }
+    .pictures1 img{
+        height:300px ;
+        width:100%;
+    }
+    .pictures1{
+        display: flex;
+        flex-direction: column;
+    }
+    .pictures1 img{
+        margin: 20px;
+    }
+    .wrapper{
+        flex-direction: column;
+    }
+    .wrapper button{
+        margin-top:20px ;
+    }
+}
+@media screen and (max-width:480px){
+    header{
+        width: 100%;
+        flex-direction:column ;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+    nav{
+        width: 100%;
+        height:300px ;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+    .nav_link a{
+        display: flex;
+        flex-direction:column ;
+        border-bottom:2px solid lightgray;
+        justify-content: center;
+        align-items: center;
+    }
+    .box1{
+        width:300px ;
+        height:300px ;
+        top:450px;
+        left:20px ;
+    }
+    .box1 h1{
+        font-size:25px ;
+    }
+    .box2{
+        display: flex;
+        flex-direction: column;
+    }
+    .box2-1{
+        display: flex;
+        flex-direction: column;
+    }
+    .box2-2{
+        display: flex;
+        flex-direction: column;
+    }
+    .fist{
+        margin-top:30px ;
+    }
+    .secind{
+        margin-bottom:30px ;
+    }
+    .fist,.secind{
+        margin-left:-20px ;
+    }
+    .sec-2,.sec-3,.sec-4{
+        margin-top:-35px ;
+    }
+    .container{
+        display: flex;
+        flex-direction:column;
+    }
+    .container-1{
+        display: flex;
+        flex-direction:column;
+    }
+    .container-2{
+        display: flex;
+        flex-direction:column;
+    }
+
+    .con-2,.con-3,.con-4{
+        margin-top:30px ;
+    }
+    .container-five{
+        margin:100px 100px ;
+    }
+    .doc-1 h1{
+        width: 300px;
+        margin-left:-50px ;
+    }
+    .doc-1 h1~p{
+        margin-left:-50px ;
+    }
+    .doc-1 p{
+        width:300px ;
+        margin-left:20px ;
+    }
+    .doc-2 p{
+        width:300px ;
+        margin:20px 0;
+        margin-left:-50px;
+    }
+    .doc-one-1,.doc-one-2{
+        margin-right: 0;
+        margin-left:60px ;
+    }
+    .doc-1 button{
+        margin-left:20px ;
+    }
+    .container-six{
+        padding:80px 80px ;
+        width: 100%;
+    }
+    .pictures p{
+        width:350px ;
+    }
+    .pictures1 img{
+        height:180px ;
+        margin-left:1px ;
+    }
+    .team p{
+        line-height:30px ;
+    }
+    .all-doctors{
+        display: flex;
+        flex-direction: column;
+    }
+    .all-doctors-1{
+        display: flex;
+        flex-direction: column;
+    }
+    .all-doctors-2{
+        display: flex;
+        flex-direction: column;
+    }
+    .doctor-2,.doctor-3,.doctor-4{
+        margin-top:30px ;
+    }
+    .wrapper h2{
+        font-size:28px;
+        margin-bottom: 10px;
+    }
+    .all-details{
+        display: flex;
+        flex-direction: column;
+    }
+    .all-details-1{
+        display: flex;
+        flex-direction: column;
+        margin-bottom:-100px ;
+    }
+    .all-details-2{
+        display: flex;
+        flex-direction: column;
+    }
+    .detail-1,.detail-2,.detail-3{
+        margin: 0;
+        margin-bottom:80px ;
+    }
+    .all-details h2{
+        margin-bottom:40px ;
+    }
+    .foot{
+        flex-direction: column;
+    }
+    .right p{
+        border: none;
+        margin-bottom:10px ;
+    }
+    .container-three img{
+        margin-left:-50px ;
+    }
+    .container-three p{
+        width:350px ;
+        margin:0 ;
+        text-align: center;
+        margin-left:10px ;
+    }
+    .play1,.play2{
+        width:300px ;
+        margin-left:-50px ;
+    }
+}
